@@ -1,0 +1,17 @@
+html:not(.mobile-view) {
+    .has-sidebar + .sidebar {
+      width: 30%;
+      float: right;
+      min-height: 100px;
+    }
+    .list-container.has-sidebar {
+      width: 65%;
+      float: left;
+    }
+    .sidebar-latest-replies {
+      margin-bottom: 30px;
+      h3 {
+        padding-bottom: 8px;
+      }
+    }
+}
