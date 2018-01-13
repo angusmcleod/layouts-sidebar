@@ -25,6 +25,6 @@ createWidget('sidebar-reply-item', {
       h('a.item-title', {
         attributes: { href: url}
       }, attrs.topic_title)
-    ]
+    ];
   },
 });

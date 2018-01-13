@@ -5,5 +5,5 @@
 register_asset 'stylesheets/layouts-sidebar.scss'
 
 DiscourseEvent.on(:layouts_ready) do
-  DiscourseLayouts::WidgetHelper.add_widget('sidebar', position: 'left', order: 'start')
+  DiscourseLayouts::WidgetHelper.add_widget('user-sidebar', position: 'left', order: 'start')
 end
